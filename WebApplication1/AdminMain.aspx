@@ -12,6 +12,11 @@
         <a href="AdminSlots.aspx">Slots</a>
         <a href="AdminCampus.aspx">Campus</a>
     </div>
+    <div>
+        
+        <asp:TextBox ID="MessageOfTheDay" runat="server"></asp:TextBox>
+        
+    </div>
     </form>
-</body>
+    </body>
 </html>

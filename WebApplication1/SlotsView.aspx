@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SlotsView.aspx.cs" Inherits="WebApplication1.SlotsView" %>
 
+
 <!DOCTYPE html>
 
 
@@ -16,8 +17,14 @@
     <form id="form1" runat="server">
     <asp:Image  ID="Logo" runat="server" ImageUrl="~/images/artesis.jpg" 
                     BorderStyle="None" width="370" />
+      
+
 
     <h2>Toezichtsbeurten BLS</h2>
+
+          <div>
+    <asp:label ID="Label1" runat="server" text="Label"></asp:label>
+</div>
 <br />
 <br />
 Toezichtsbeurten voor :  Antwerpen
@@ -65,6 +72,8 @@ Toezichtsbeurten voor :  Antwerpen
 <br />
 
     </form>
+    <div>
+        <asp:Button ID="LogoutButton" runat="server" Text="Logout" OnClick="LogoutButton_Click" /></div>
 
 </body>
 </html>

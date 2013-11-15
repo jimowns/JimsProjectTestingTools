@@ -17,6 +17,7 @@ namespace WebApplication1
         private ButtonGenerator buttons;
         private Entity entity;
         private const string NEXT_PAGE = "LoginView.aspx";
+        private const string LOGOUT_PAGE = "Logout.aspx";
         protected void Page_Load(object sender, EventArgs e)
         {
             try
@@ -38,6 +39,11 @@ namespace WebApplication1
                 Panel1.Controls.Add(buttons.WriteButton(i, entity.DB_Slots.ElementAt(i).ID.ToString()));
                 this.buttons.ClickSlots(i);
             }
+        }
+
+        protected void LogoutButton_Click(object sender, EventArgs e)
+        {
+            HttpContext.Current.Response.Redirect(LOGOUT_PAGE);
         }
     }
 }

@@ -3,3 +3,8 @@ C:\GitProject\WebApplication1\WebApplication1\bin\WebApplication1.pdb
 C:\GitProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\GitProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
 C:\GitProject\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Floyd\Documents\GitHub\JimsProjectTestingTools\WebApplication1\bin\WebApplication1.dll
+C:\Users\Floyd\Documents\GitHub\JimsProjectTestingTools\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Floyd\Documents\GitHub\JimsProjectTestingTools\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Floyd\Documents\GitHub\JimsProjectTestingTools\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Floyd\Documents\GitHub\JimsProjectTestingTools\WebApplication1\obj\Debug\WebApplication1.pdb
